@@ -3,13 +3,13 @@ import telegram
 import asyncio
 
 client = OpenAI(
-    api_key="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"
+    api_key=""
 )
 messages = "반가워"
 
 async def send():
 
-  token = "6802394554:AAEn560wF6oRAx0dtdTiWP24cZd-zBht6vs"
+  token = ""
   bot = telegram.Bot(token = token)
   public_chat_name = '@k201912052test'
   
